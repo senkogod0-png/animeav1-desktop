@@ -1,0 +1,44 @@
+{
+  "name": "animeav1-desktop",
+  "version": "1.0.0",
+  "description": "Aplicacion de escritorio para AnimeAV1.",
+  "main": "src/main.js",
+  "author": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.animeav1.desktop",
+    "productName": "AnimeAV1 Desktop",
+    "directories": {
+      "output": "outputs"
+    },
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "portable": {
+      "artifactName": "AnimeAV1-Desktop-${version}-portable.exe"
+    }
+  },
+  "allowScripts": {
+    "electron@39.8.10": true,
+    "electron-winstaller@5.4.0": true
+  }
+}
