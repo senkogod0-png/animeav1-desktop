@@ -32,7 +32,7 @@ El archivo final se genera en `outputs/`.
 ## Creditos
 
 - Proyecto e iniciativa: [GyroZ (@senkogod0-png)](https://github.com/senkogod0-png)
-- Desarrollo y empaquetado: Codex de OpenAI
+- Desarrollo y empaquetado: GyroZ
 - Sitio cargado por la aplicacion: [AnimeAV1](https://animeav1.com/)
 
 Esta es una aplicacion independiente y no esta afiliada ni respaldada por AnimeAV1. El contenido mostrado pertenece a sus respectivos propietarios y proveedores.
